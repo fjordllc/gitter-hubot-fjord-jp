@@ -16,10 +16,10 @@ module.exports = (robot) ->
     user =
       room:
         id: query.room
+      message: 'rrrrrrrrrrrr'
 
     console.log query
-    console.log "room: #{query.room}"
-    console.log "message: #{query.message}"
+    console.log user
 
     try
       robot.send user, "INCOMING MESSAGE: " + query.message
