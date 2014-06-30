@@ -1,1 +1,1 @@
-web: bin/hubot -a gitter -n spock
+web: bin/hubot -a gitter
